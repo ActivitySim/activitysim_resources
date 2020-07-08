@@ -2,7 +2,7 @@
 
 Welcome to the [ActivitySim](https://activitysim.github.io/) datasets! This repository contains
 the necessary data to perform a complete ActivitySim model for the [MTC](https://mtc.ca.gov/) Bay Area region in California.
-The data is provided at several scales, including the entire 1475-TAZ region, as well as smaller
+The data is provided at several scales, including the full-scale 1475-TAZ region, as well as smaller
 sub-regions with faster runtimes and lower memory overhead.
 
 Configuration files can be found in the main [ActivitySim repository](https://github.com/ActivitySim/activitysim),
