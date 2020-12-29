@@ -6,9 +6,9 @@ files can be found in the main [ActivitySim repository](https://github.com/Activ
 which also stores the core TM1 small scale example data for testing.
 
 ## Examples
-  - TM1 full scale model - mtc_data_full
-  - TM1 San Francisco only - mtc_data_sf
-  - 2 zone system test example based on TM1 - data_2
-  - 3 zone system test example based on TM1 - data_3
-  - Marin TM2 work tour mode choice cropped to one county for testing - data_3_marin
-  - Marin TM2 work tour mode choice for the 9 county MTC region - data_3_marin_full
+  - mtc_data_full - TM1 full scale model
+  - mtc_data_sf - TM1 San Francisco only
+  - data_2 - 2 zone system test example based on TM1
+  - data_3 - 3 zone system test example based on TM1
+  - data_3_marin - Marin TM2 work tour mode choice cropped to one county for testing
+  - data_3_marin_full - Marin TM2 work tour mode choice for the 9 county MTC region
