@@ -1,21 +1,14 @@
 # activitysim_resources
 
 Welcome to the [ActivitySim](https://activitysim.github.io/) datasets! This repository contains
-the necessary data to perform a complete ActivitySim model for the [MTC](https://mtc.ca.gov/) Bay Area region in California.
-The data is provided at several scales, including the full-scale 1475-TAZ region, as well as smaller
-sub-regions with faster runtimes and lower memory overhead.
+the necessary data to perform a complete ActivitySim model for several example setups.  Configuration 
+files can be found in the main [ActivitySim repository](https://github.com/ActivitySim/activitysim),
+which also stores the core TM1 small scale example data for testing.
 
-Configuration files can be found in the main [ActivitySim repository](https://github.com/ActivitySim/activitysim),
-which also stores the 25-zone mini-example used for testing.
-
-## Full scale model
-- **skims.omx** - complete 1475 TAZ-TAZ OD matrices
-- **persons.csv** - 7.5M persons
-- **land_use** - TAZ attributes
-- **households.csv** - 2.8M households
-
-## San Francisco only
-- **skims.omx** - SF area OD matrices of 190 TAZs
-- **persons.csv** - 900k persons
-- **land_use.csv** - TAZ attributes
-- **households.csv** - 400k households
+## Examples
+  - TM1 full scale model - mtc_data_full
+  - TM1 San Francisco only - mtc_data_sf
+  - 2 zone system test example based on TM1 - data_2
+  - 3 zone system test example based on TM1 - data_3
+  - Marin TM2 work tour mode choice cropped to one county for testing - data_3_marin
+  - Marin TM2 work tour mode choice for the 9 county MTC region - data_3_marin_full
